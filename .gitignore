@@ -1,0 +1,5 @@
+# add files and folders to ignore here
+/.env
+/.vscode/
+/.idea/
+
