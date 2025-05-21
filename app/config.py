@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     # Database settings
     DB_HOST: str = "localhost"
-    DB_PORT: str = 5432
+    DB_PORT: int = 5432
     DB_NAME: str = "fastapi"
     DB_USER: str = "postgres"
     DB_PASSWORD: str = "postgres"
