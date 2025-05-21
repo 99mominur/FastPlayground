@@ -1,7 +1,7 @@
 from fastapi import FastAPI, APIRouter
-from routers import post, user, auth, vote
-from database import engine
-from models import Base
+from .routers import post, user, auth, vote
+from .database import engine
+from .models import Base
 
 
 Base.metadata.create_all(bind=engine)
